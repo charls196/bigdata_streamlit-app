@@ -12,7 +12,7 @@ from pathlib import Path
 home_path = str(Path.home())
 
 # Data import (you may need to change the path)
-df = pd.read_csv(home_path + "/streamlit-app/data/oecd.csv")
+df = pd.read_csv(home_path + "/Documents/GitHub/bigdata_streamlit-app/data/oecd.csv")
 
 
 ###-------------------###
@@ -22,13 +22,13 @@ df = pd.read_csv(home_path + "/streamlit-app/data/oecd.csv")
 # HEADER
 
 # Title of our app
-st.title("My first App")
+st.title("Dies ist mein Titel")
 
 # Add image
 st.image('hdm-logo.jpg')
 
 # Add header
-st.header("My header")
+st.header("Test header")
 
 #-------------------#
 # SIDEBAR
